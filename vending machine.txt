@@ -1,0 +1,41 @@
+vending machine requirements:
+1.it has to display welcome message 
+2.It has to display total milk available now and today milkrate/liter from database.
+3.then machine ask the user howmuch quantity user wants.
+4.then machine ask the user to enter coins.
+5.machine calculate the amount enter by user.
+6.it calculate the change.
+7.it calculate minimum number of coins. 
+8.it displays a message with the change and enter it into bill.
+-------------------------------------------------------------
+milk_availability,todaymilk_rate,coins,
+----------------------------------------------------------
+methods:
+1.display_welcome_message()
+2.display_availm_aliterrate()
+
+
+3.user_needs()
+milk(float userneedmilk,int useer_enteredcoin)
+4.enter_coins()
+
+5.calculate_total()
+milk_availability=totalmilk-userneedmilk;
+price=userneedmilk*todaymilk_rate;
+
+6.calculate_change()
+
+change_amount=user_enteredcoin-price;
+
+7.display_change_message()
+-----------------------------------------------
+1.check the sensor every time when we fill milk in a machine(relaymotor should be in closed status)
+2.display  updated milk availablity every time
+------------------------------------------------
+Sql daily updates:
+1.update how much we fill a milk in vending machine
+2.update today milk rate per liter 
+3.everytime update sellingmilk and availablemilk in database and fetch into program and then run  
+4.today total selling price.
+-------------------------------------------------
+date          filledmilk                   rate/liter                  salemilk               availablemilk

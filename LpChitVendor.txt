@@ -1,0 +1,24 @@
+LP_CHIT_VENDOR
+Main:
+	User Input:
+			1.create a new chit
+				i)create a table
+				ii)enter a all coloumn in a table
+				iii)add member of a table
+			2.edit existing chit
+				i)update payed members in a table
+				ii)remove payed member into the notification
+				iii)send notification to all other member between every week
+				iv)monthly fresh updates 
+			3.pick a auction for all chit
+				i)enter a random selection program in all tables
+			4.pick a aution for selected chit
+				i)enter a priority of demand peoples and select vendor 
+			5.list all chit
+				i)add all table and member 
+				ii)display all user chitfund status
+				
+			6.exit
+
+	inspect of submit button we have to enter payment button
+	postresponse backresponse

@@ -1,0 +1,28 @@
+	'''
+    # cursor
+    crsr = connection.cursor()
+
+    # SQL command to create a table in the database
+    sql_command = """CREATE TABLE LPCHIT_BB001 ( 
+    sequenceNumber  INTEGER , 
+    dueAmount INTEGER , 
+    InteresAmount INTEGER, 
+    disposeAmount INTEGER,
+    userID VARCHAR(20),
+    dueDate DATE);"""
+
+    # execute the statement
+    crsr.execute(sql_command)
+
+    # SQL command to insert the data in the table
+    sql_command = """INSERT INTO LPCHIT_BB001 VALUES (1, 5000, 0, 0,"NILL" ,"2021-08-13");"""
+
+
+    # another SQL command to insert the data in the table
+    # sql_command = """INSERT INTO LPCHIT_BB001 VALUES (1, "Bill", "Gates", "M", "1980-10-28");"""
+    # crsr.execute(sql_command)
+
+    # To save the changes in the files. Never skip this.
+    # If we skip this, nothing will be saved in the database.
+    connection.commit()
+    '''

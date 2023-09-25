@@ -1,0 +1,11 @@
+LP_CHIT_CUSTOMER
+Main:
+     User Input:
+	      PhoneNumber
+		  Find Module:
+			By using phone number find the USER ID In all the Table 
+			Display all the Users Chitfund status
+			send notification to not payed members
+			perference input:
+			    Allowed
+				Not allowed(If already got)

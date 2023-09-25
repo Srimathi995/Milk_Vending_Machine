@@ -1,0 +1,14 @@
+total chit amount
+member
+month
+monthlychit amount update
+commision rate
+auction amount
+updated members
+interest
+Lottery
+Customer Prefered Member
+Vendor prefered Member
+
+
+
